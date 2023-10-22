@@ -5,7 +5,7 @@
 #include "../Inc/main.h"
 #include "../Inc/robot.h"
 
-int main() {
+int main (){
     RobotPos pos{0,0,0,0};
     moveRobot(&pos, 1, 20000);
     return 0;
